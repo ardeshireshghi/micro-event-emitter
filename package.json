@@ -4,7 +4,8 @@
   "description": "This is a micro JS events library",
   "main": "src/microEventEmitter.js",
   "scripts": {
-    "test": "mocha ./test/*.js --timeout 10000"
+    "test": "mocha ./test/*.test.js --timeout 10000",
+    "coverage": "istanbul cover --dir ./coverage _mocha -- -u exports ./test/*.test.js --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/ardeshireshghi/micro-event-emitter#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
     "sinon": "^1.17.4"
   }
