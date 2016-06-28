@@ -1,0 +1,29 @@
+{
+  "name": "micro-event-emitter",
+  "version": "1.0.0",
+  "description": "This is a micro JS events library",
+  "main": "src/microEventEmitter.js",
+  "scripts": {
+    "test": "mocha ./test/*.js --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardeshireshghi/micro-event-emitter.git"
+  },
+  "keywords": [
+    "micro",
+    "node",
+    "events"
+  ],
+  "author": "YouView CloudServices <team.cloudservices@youview.com> (https://www.youview.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardeshireshghi/micro-event-emitter/issues"
+  },
+  "homepage": "https://github.com/ardeshireshghi/micro-event-emitter#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
